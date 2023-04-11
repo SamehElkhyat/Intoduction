@@ -1,0 +1,884 @@
+  
+body{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+    color: black;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+
+.carousel-control-next{
+width: 5%;
+height: 5%;
+position:relative ;
+top: -500px;
+
+border: 1px solid white;
+
+}
+
+
+.carousel-control-prev{
+    width: 5%;
+    height: 5%;
+    
+    position:relative ;
+    top: -500px;
+    border: 1px solid white;
+}
+
+
+.home .carousel .carousel-control-prev-icon{
+width: 100%!important;
+height: 100% !important;
+transition-property: all;
+transition-duration: .5s;
+
+}
+.home .carousel .carousel-control-prev-icon:hover{
+
+    background-color: red;
+ 
+}
+
+.home .carousel .carousel-control-next-icon{
+
+
+right: 1386px;
+top: 50px; 
+width: 100%;
+height: 100%;
+transition-property: all;
+transition-duration: .5s;
+
+
+    }
+
+    .home .carousel .carousel-control-next-icon:hover{
+        background-color: red;
+    }
+
+
+
+
+.gear{
+    position: fixed;
+    color: black;
+}
+
+
+
+
+.home .gear{
+width:3%;
+position: fixed;
+    position: relative;
+    bottom: 700px;
+    font-size: 40px;
+    background-attachment: fixed;
+    transition-property: all;
+    transition-duration: 1;
+    transition-delay: 1;
+    
+}
+
+.home .gear:hover{
+
+    color: red;
+}
+
+
+.home .carousel h1{
+
+    position: relative;
+    bottom: 450px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+}
+
+
+.nav-link {
+    display: flex;
+flex-direction: row;
+padding: 10px;
+position: relative;
+right: 20px;
+font-weight: 500;
+font-family: "Poppins", sans-serif;
+transition-property: all;
+transition-duration: 0s;
+
+}
+
+.nav-item:hover .nav-link{
+
+    color: red;
+}
+
+
+.navbar .container-fluid{
+    flex-wrap: nowrap;
+}
+.navbar-nav{
+
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction:row ;
+    font-size: 20px;
+    letter-spacing: .5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: transparent !important;
+   letter-spacing: 1px;
+}
+
+
+
+
+
+
+.navbar{
+
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    padding: 30px 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: "Poppins", sans-serif;
+    
+
+}
+
+.home{
+background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(images/);
+height: 100vh;
+background-position: center;
+background-size: cover;
+
+}
+
+/* section2 */
+.contsec2info h1{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: relative;
+  color: #d1d1d1af;
+  font-size: calc(1.95rem + 8.4vw) !important;
+ 
+  
+  }
+
+
+.bordsec2{
+    position: relative;
+    top: 80px;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+    transition: all 1s;
+}
+.contsec2info:hover .bordsec2{
+
+    width: 150px;
+}
+
+
+  .contsec2info h3{
+    font-family: "Poppins", sans-serif;
+   
+  color:black;  
+  position: relative;
+top:70px;
+left:510px ;
+  font-size: 50px;
+  font-weight: 900;
+  overflow: hidden;  
+  }
+  .contsec2info h1,h3{
+    width: 20%;
+    position: relative;
+    top: 200px;
+    left: 520px;
+    text-align: center;
+  overflow: hidden;  
+  /*  */
+}
+  
+
+
+
+  .contsec2info p{
+    overflow: hidden;  
+  position: relative;
+  top: 100px;
+  width: 60%;
+  text-align: center;
+  left:250px ;
+  
+  }
+
+  .paragraphsec2{
+
+ text-align: center;
+ position: relative;
+ top: 260px;
+ left: 200px;
+ line-height: 30px;
+ 
+
+  }
+/* lines */
+.sec2{ 
+
+position: relative;
+top:260px ;
+left: 400px;
+line-height: 60px;
+    
+}
+.sec2 span{
+position: relative;
+    left: 200px;
+}
+ .sec2 p{
+
+position: relative;
+ }
+
+ .sec2 p::after {
+content: '';
+position: absolute;
+left: 0px;
+top:50px ;
+background-color: tomato;
+height: 5px;
+width: 200px;
+ }
+/* section3 */
+ .item{
+    position: relative;
+    overflow: hidden;
+
+width: 100%;
+transition-property: all;
+transition-duration: 2s;
+transition-delay: 3s;
+}
+
+.item img{
+    transition-property: all;
+transition-duration: .5s;
+transition-delay: .5s;
+}
+.item:hover img{
+
+    transform: scale(1.5);
+
+}
+
+
+ .layer{
+   text-align: center;
+   margin: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(229, 0, 0, 0.6);
+opacity: 0;
+transition: all 1s;
+
+}
+.layer i{
+position: relative;
+top: 150px;
+
+}
+.sec3info{
+    margin: auto;
+text-align: center;
+    position: relative;
+    top:300px;
+}
+
+
+.item:hover .layer{
+    
+    opacity: 1;
+    overflow-x: hidden;
+}
+
+
+.bordsec3{
+    position: relative;
+    top: 150px;
+    left: 15px;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+    transition: all 1s;
+}
+.contsec3info:hover .bordsec3{
+
+    width: 150px;
+}
+
+
+.contsec3info h3{
+    font-family: "Poppins", sans-serif;
+  
+  color:black;  
+  position: relative;
+top:100px;
+  font-size: 50px;
+  font-weight: 900;
+  
+  }
+  .contsec3info h2,h3{
+    position: relative;
+    top: 250px;
+    left:620px ;
+    text-align: center;
+   
+    width: 20%;
+  }
+  
+  .contsec3info p{
+
+  position: relative;
+  top: 160px;
+  width: 60%;
+  text-align: center;
+  left:300px ;
+
+  }
+  .contsec3info h2{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: relative;
+  color: #d1d1d1af;
+  font-size: calc(1.95rem + 8.4vw) !important;  
+  }
+
+  .contactus{
+
+    position: relative;
+    top: 400px;
+    display: flex;
+    flex-direction: row;
+  }
+  .contactuss{
+
+    position: relative;
+    left: 400px;
+    
+  }
+  /* section4 */
+.bordsec4{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+    transition: all 1s;
+}
+.contsec4info:hover .bordsec4{
+
+    width: 150px;
+}
+
+
+.contsec4info h3{
+    font-family: "Poppins", sans-serif;
+  
+  color:black;  
+  position: relative;
+top:100px;
+  font-size: 50px;
+  font-weight: 900;
+  
+  }
+  .contsec4info h2,h3{
+    position: relative;
+    top: 250px;
+    left:620px ;
+    text-align: center;
+   
+    width: 20%;
+  }
+
+  .contsec4info p{
+
+  position: relative;
+  top: 160px;
+  width: 60%;
+  text-align: center;
+  left:300px ;
+
+  }
+  .contsec4info h2{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: relative;
+  color: #d1d1d1af;
+  font-size: calc(1.95rem + 8.4vw) !important;  
+  }
+
+.contsec4info{
+
+    position: relative;
+    top: 400px;
+    right: 100px;
+    
+height: 0vh;
+}
+.contsec4info h2{
+width: 20%;
+    
+}
+.contsec4info h3{
+    width: 20%;
+        
+    }
+.gang1{
+position: relative;
+top: 1000px;
+left:100px;
+
+}
+.gang2 {
+    position: relative;
+top: 1100px;
+left: 100px;
+
+}
+.gang3{
+    position: relative;
+top: 100px;
+
+}
+
+.gang1 i{
+    font-size: 20px;
+    color: red;
+    position: relative;
+    right: 40px;
+    top: 30px;
+}
+.gang2 i{
+    font-size: 20px;
+    color: red;
+    position: relative;
+    right: 40px;
+    top: 30px;
+}
+.gang3 i{
+    font-size: 20px;
+    color: red;
+    position: relative;
+    right: 40px;
+    top: 30px;
+}
+.Responsiev{
+
+transition: all 1s;
+}
+
+.Responsiev:hover h4{
+color: red;
+}
+
+
+.Modern{
+    transition: all 1s;
+
+}
+
+.Modern:hover h4{
+    color: red;
+}
+
+
+.Font{
+    transition: all 1s;
+
+}
+
+.Font:hover h4{
+    color: red;
+}
+
+
+
+
+.Ajax{
+    transition: all 1s;
+
+}
+
+.Ajax:hover h4{
+    color: red; 
+}
+
+
+
+
+.Color{
+
+    transition: all 1s;
+}
+
+.Color:hover h4{
+    color: red; 
+}
+
+
+
+
+.Audio{
+    transition: all 1s;
+
+}
+
+.Audio:hover h4{
+    color: red;
+}
+
+
+
+
+
+.Well{
+    transition: all 1s;
+
+}
+
+.Well:hover h4{
+    color: red;
+}
+
+
+
+
+.Background{
+    transition: all 1s;
+
+}
+
+.Background:hover h4{
+    color: red;
+}
+
+
+
+
+.Intro{
+    transition: all 1s;
+
+}
+
+.Intro:hover h4{
+    color: red;
+}
+.carousel-indicators{
+    position: static;
+position: relative;
+bottom: 300px;
+
+}
+
+.carousel-indicators  img{
+
+    width: 100%;
+
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 80px;
+    height: 80px;
+    text-indent: 0;
+    border-radius: 50% !important;
+}
+
+.carousel-indicators .active{
+    width: 80px;
+    height: 80px;
+}
+
+
+.information{
+
+
+    position: relative;
+    top: 1800px;
+}
+
+
+.bordsec3{
+    position: relative;
+    top: 150px;
+    left: 15px;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+    transition: all 1s;
+}
+.contsec3info:hover .bordsec3{
+
+    width: 150px;
+}
+
+
+.contsec3info h3{
+    font-family: "Poppins", sans-serif;
+  
+  color:black;  
+  position: relative;
+top:100px;
+  font-size: 50px;
+  font-weight: 900;
+  
+  }
+  .contsec3info h2,h3{
+    position: relative;
+    top: 250px;
+    left:620px ;
+    text-align: center;
+   
+    width: 20%;
+  }
+  
+  .contsec3info p{
+
+  position: relative;
+  top: 160px;
+  width: 60%;
+  text-align: center;
+  left:300px ;
+
+  }
+  .contsec3info h2{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: relative;
+  color: #d1d1d1af;
+  font-size: calc(1.95rem + 8.4vw) !important;  
+  }
+
+  .contactus{
+
+    position: relative;
+    top: 400px;
+    display: flex;
+    flex-direction: row;
+  }
+  .contactuss{
+
+    position: relative;
+    left: 400px;
+    
+  }
+ /* section5 */
+.bordsec5{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+    transition: all 1s;
+}
+.contsec5info:hover .bordsec5{
+
+    width: 150px;
+}
+
+
+.contsec5info h3{
+    font-family: "Poppins", sans-serif;
+  
+  color:black;  
+  position: relative;
+top:100px;
+  font-size: 50px;
+  font-weight: 900;
+  
+  }
+  .contsec5info h2,h3{
+    position: relative;
+    top: 250px;
+    left:620px ;
+    text-align: center;
+   
+    width: 20%;
+  }
+
+  .contsec5info p{
+
+  position: relative;
+  top: 160px;
+  width: 60%;
+  text-align: center;
+  left:350px ;
+
+  }
+  .contsec5info h2{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: relative;
+  color: #d1d1d1af;
+  font-size: calc(1.95rem + 8.4vw) !important;  
+  }
+
+.contsec5info{
+
+    position: relative;
+    top: 1000px;
+    right: 100px;
+    width: 100%;
+height: 0vh;
+}
+
+
+
+    /* section6 */
+
+    .bordsec6{
+        position: relative;
+        top: 150px;
+        left: 100px;
+        width: 100px;
+        height: 3px;
+        background-color: black;
+        margin: auto;
+        transition: all 1s;
+    }
+    .contsec6info:hover .bordsec6{
+    
+        width: 150px;
+    }
+    
+    
+    .contsec6info h3{
+        font-family: "Poppins", sans-serif;
+      
+      color:black;  
+      position: relative;
+    top:100px;
+      font-size: 50px;
+      font-weight: 900;
+      
+      }
+      .contsec6info h2,h3{
+        position: relative;
+        top: 250px;
+        left:620px ;
+        text-align: center;
+       
+        width: 20%;
+      }
+    
+      .contsec6info p{
+    
+      position: relative;
+      top: 160px;
+      width: 60%;
+      text-align: center;
+      left:350px ;
+    
+      }
+      .contsec6info h2{
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        position: relative;
+      color: #d1d1d1af;
+      font-size: calc(1.95rem + 8.4vw) !important;  
+      }
+    
+    .contsec6info{
+    
+        position: relative;
+        top: 1500px;
+        right: 100px;
+        width: 100%;
+    height: 0vh;
+    }
+    .formation li{
+
+        list-style: none;
+    }
+    .formation i{
+color: red;
+        position: relative;
+        right: 30px;
+        top: 20px;
+        font-size: 20px;
+    }
+
+.formation{
+    position: relative;
+    top: 2200px;
+}
+
+.form{
+
+position: relative;
+top: 2250px;
+
+}
+
+/* section7 */
+
+.lists{
+    position: relative;
+    top: 2500px;
+  
+
+}
+
+
+.lists h3{
+width: 40%;
+    position: relative;
+left: -50px;
+top: -40px;
+}
+
+.lists li{
+
+    list-style: none;
+}
+
+
+.icons{
+
+    display: flex;
+    flex-direction: row;
+
+    position: relative;
+    top: 2500px;
+    letter-spacing: 30px;
+color: red;
+}
